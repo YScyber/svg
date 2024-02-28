@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    max-width: 980px;
+    font: 1.2em/1.5 "メイリオ";
+    background-color: #f8f8f8;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    margin: 0 auto;
+    width: 350px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:focus, li a:hover {
+    border-bottom: 2px solid;
+    font-weight: bold;
+}
+
+li {
+    line-height: 2.5;
+}

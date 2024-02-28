@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>アニメーション</title>
+</head>
+<body>
+    <svg width="300" height="300" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <radialGradient id="radialGradient">
+                <stop offset="0%" stop-color="pink" />
+                <stop offset="100%" stop-color="orange" />
+            </radialGradient>
+        </defs>
+        <rect width="100%" height="100%" fill="#eee" />
+        <circle cx="72.5" cy="75" r="50" fill="black" />
+        <circle cx="66" cy="23" r="5" fill="url(#radialGradient)">
+            <animateMotion path="M 10,10 Q -100,67 40,82 Q 70,9 -10,9 Q -57,128 40,80 Z" dur="20s" repeatCount="indefinite" />
+        </circle>
+        <text x="45" y="98" fill="#54abba" font-family="Impact,sans-serif" font-size="57px">YS</text>
+    </svg>
+</body>
+</html>

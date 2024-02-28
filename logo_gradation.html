@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>グラデーション</title>
+</head>
+<body>
+    <svg width="300" height="300" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <radialGradient id="radialGradient">
+                <stop offset="0%" stop-color="gray" />
+                <stop offset="100%" stop-color="silver" />
+            </radialGradient>
+            <linearGradient id="linearGradient">
+                <stop offset="0%" stop-color="#54abba" />
+                <stop offset="50%" stop-color="#54ba65" />
+                <stop offset="100%" stop-color="#a2ba54" />
+            </linearGradient>
+        </defs>
+        <rect width="100%" height="100%" fill="#eee" />
+        <circle cx="72.5" cy="75" r="50" fill="url(#radialGradient)" />
+        <text
+            x="45" y="98"
+            fill="url(#linearGradient)"
+            font-family="Impact,sans-serif" font-size="57px">
+            YS
+        </text>
+    </svg>
+</body>
+</html>
