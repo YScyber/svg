@@ -34,6 +34,7 @@
 1. アニメーション
     - デフォルトのSVGにアニメーションを追加してみました。
     - `circle`要素と`text`要素の間に`radialGradient`要素(`ピンク色`0%から`オレンジ色`100%へと変換)でグラデーションされた小さな球体を新たに`circle`要素で記述しています。
-    - 動きは`circle`要素内で`animateMotion`要素を記述し、パスで指定しています。他にも、`dur`属性(時間)の値を`10s`(10秒)と`repeatCount`属性(繰り返し)の値を`indefinite`(不定)にしています。
+    - 動きは`circle`要素内で`animateMotion`要素を記述し、パスで指定しています。他にも、`dur`属性(時間)の値を`20s`(20秒)と`repeatCount`属性(繰り返し)の値を`indefinite`(不定)にしています。
+
 
 [完成ページへ](https://yscyber.github.io/svg/ "https://yscyber.github.io/svg/")
