@@ -11,7 +11,7 @@
 1. 座標指定
     - `svg`要素内の一番下にある`text`要素の`x`属性(長さ)と`y`属性(長さ)の値を変更して、`circle`要素の領域内の右下に移動させています。
 1. 色の変更
-    - `svg`要素内の一番下にある`text`要素の`fill`属性(色)の値を<span style="color: #54abba ;">#54abba</span>から<span style="color: #54ba65; ">#54ba65</span>へと変更しています。
+    - `svg`要素内の一番下にある`text`要素の`fill`属性(色)の値を<span style="color: #54abba">#54abba</span>から<span style="color: #54ba65">#54ba65</span>へと変更しています。
 1. 透明度
     - `svg`要素内の一番下にある`text`要素に`fill-opacity`属性(透明度)を追加し、値に`0.5`を付与して半透明にしています。
 1. フォントを変更
