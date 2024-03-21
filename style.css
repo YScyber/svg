@@ -3,18 +3,13 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 90%;
-    max-width: 980px;
+    max-width: 350px;
     font: 1.2em/1.5 "メイリオ";
     background-color: #f8f8f8;
 }
 
 header {
     text-align: center;
-}
-
-nav {
-    margin: 0 auto;
-    width: 350px;
 }
 
 li a {
