@@ -12,11 +12,11 @@ header {
     text-align: center;
 }
 
-ol li a {
+li a {
     text-decoration: none;
 }
 
-ol li a:focus, ol li a:hover {
+li a:focus, li a:hover {
     border-bottom: 2px solid;
     font-weight: bold;
 }
