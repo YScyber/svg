@@ -3,8 +3,8 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 90%;
-    max-width: 350px;
-    font: 1.2em/1.5 "メイリオ";
+    max-width: 900px;
+    font: 1.2em/1.5 "sans-serif";
     background-color: #f8f8f8;
 }
 
@@ -12,12 +12,55 @@ header {
     text-align: center;
 }
 
-li a {
+ol li a {
     text-decoration: none;
 }
 
-li a:focus, li a:hover {
+ol li a:focus, ol li a:hover {
     border-bottom: 2px solid;
+    font-weight: bold;
+}
+
+ol li {
+    line-height: 2;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.blue {
+    color: #54abba;
+}
+
+.green {
+    color: #54ba65;
+}
+
+.gray {
+    color: gray;
+}
+
+.silver {
+    color: silver;
+}
+
+.cyan {
+    color: #54abba;
+}
+
+.yellow {
+    color: #a2ba54;
+}
+
+.pink {
+    color: pink;
+}
+
+.orange {
+    color: orange;
+}
     font-weight: bold;
 }
 
