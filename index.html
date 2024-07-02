@@ -13,31 +13,31 @@
     <nav>
         <ol>
             <li>
-                <a href="https://yscyber.github.io/svg/logo_default.html">デフォルト</a>
+                <a href="https://yscyber.github.io/svg/logo_default.html" title="https://yscyber.github.io/svg/logo_default.html">デフォルト</a>
                 <ul>
                     <li>ここから手を加えていきます。もともとはsvgファイルでしたが、単純化(作成した際に付随していたINKSCAPE用の記述を削除するなど)してhtmlファイルに変換しました。</li>
                 </ul>
             </li>
             <li>
-                <a href="https://yscyber.github.io/svg/logo_xy.html">座標指定</a>
+                <a href="https://yscyber.github.io/svg/logo_xy.html" title="https://yscyber.github.io/svg/logo_xy.html">座標指定</a>
                 <ul>
                     <li>svg要素内の一番下にあるtext要素のx属性(長さ)とy属性(長さ)の値を変更して、circle要素の領域内の右下に移動させています。</li>
                 </ul>
             </li>
             <li>
-                <a href="https://yscyber.github.io/svg/logo_color.html">色の変更</a>
+                <a href="https://yscyber.github.io/svg/logo_color.html" title="https://yscyber.github.io/svg/logo_color.html">色の変更</a>
                 <ul>
                     <li>svg要素内の一番下にあるtext要素のfill属性(色)の値を<span class="blue">#54abba</span>から<span class="green">#54ba65</span>へと変更しています。</li>
                 </ul>
             </li>
             <li>
-                <a href="https://yscyber.github.io/svg/logo_opacity.html">透明度</a>
+                <a href="https://yscyber.github.io/svg/logo_opacity.html" title="https://yscyber.github.io/svg/logo_opacity.html">透明度</a>
                 <ul>
                     <li>svg要素内の一番下にあるtext要素にfill-opacity属性(透明度)を追加し、値に0.5を付与して半透明にしています。</li>
                 </ul>
             </li>
             <li>
-                <a href="https://yscyber.github.io/svg/logo_fonts.html">フォントを変更</a>
+                <a href="https://yscyber.github.io/svg/logo_fonts.html" title="https://yscyber.github.io/svg/logo_fonts.html">フォントを変更</a>
                 <ul>
                     <li>svg要素内の一番下にあるtext要素のfont-family属性(書式名)の値を"Impact,sans-serif"から"Georgia,sans-serif"へと変更しましたが、バランスを考慮して、font-size属性(長さ)、x属性、y属性を変更、さらにはfont-weight属性(太さ)を追加し、値をbold(太い)としています。</li>
                     <li>今回は"Georgia"を使用しましたが、CSSと同様その他のたくさんの値が使用できます。</li>
@@ -45,7 +45,7 @@
                 </ul>
             </li>
             <li>
-                <a href="https://yscyber.github.io/svg/logo_transform.html">座標変換</a>
+                <a href="https://yscyber.github.io/svg/logo_transform.html" title="https://yscyber.github.io/svg/logo_transform.html">座標変換</a>
                 <ul>
                     <li>svg要素内の一番下にあるtext要素にtransform属性を追加し、値をtranslate(38,70) rotate(45)としています。これは、単純にcircle要素の領域内の真ん中に45度傾いたtext要素を配置しているだけです。</li>
                     <li>ただし、translate(x,y)値を使用する際には、x属性、y属性を0に指定しておかなければなりません。</li>
@@ -53,7 +53,7 @@
                 </ul>
             </li>
             <li>
-                <a href="https://yscyber.github.io/svg/logo_gradation.html">グラデーション</a>
+                <a href="https://yscyber.github.io/svg/logo_gradation.html" title="https://yscyber.github.io/svg/logo_gradation.html">グラデーション</a>
                 <ul>
                     <li>svg要素内の一番上にあるdefs要素とは、あらかじめ指定しておく要素のための要素(ここでは、radialGradient要素(<span class="gray">灰色(gray) 0%</span>から<span class="silver">銀色(silver) 100%</span>へと変換)とlinearGradient要素(<span class="cyan">#54abba 0%</span>から<span class="blue">#54ba65 50%</span>、さらに<span class="yellow">#a2ba54 100%</span>へと変換))です。defs要素内の要素には後述する要素に対して利用できるように`id`属性を与えておき、radialGradient要素(id属性"radialGradient")をcircle要素のfill属性(色)に、linearGradient要素(id属性"linearGradient")をtext要素のfill属性(色)へと指定します。</li>
                     <li>ここで、fill属性(色)へ指定する値に関して気を付けなければいけないことは<strong>url(#id名)</strong>と記述することです。</li>
@@ -61,22 +61,22 @@
                 </ul>
             </li>
             <li>
-                <a href="https://yscyber.github.io/svg/logo_combination.html">組み合わせ</a>
+                <a href="https://yscyber.github.io/svg/logo_combination.html" title="https://yscyber.github.io/svg/logo_combination.html">組み合わせ</a>
                 <ul>
                     <li>これまで行ってきた変換をすべて行っていますが、ここでは1つだったtext要素を2つのtext要素に分け、それぞれに異なる値を指定しています。</li>
                 </ul>
             </li>
             <li>
-                <a href="https://yscyber.github.io/svg/logo_path.html">パス指定</a>
+                <a href="https://yscyber.github.io/svg/logo_path.html" title="https://yscyber.github.io/svg/logo_path.html">パス指定</a>
                 <ul>
                     <li>ここでは、text要素を削除し、文字はすべてpath要素で記述してあります。三次ペジェ曲線(Yの曲線)、直線(Yの直線)、三次ペジェ曲線(Sの曲線)、直線(Sの直線)の順番で記述しています。</li>
                     <li>手書き風に描きたかったので、stroke-width属性(太さ)をできるだけ細くし、stroke-linecap属性(butt、round、square、inherit)の値をroundにしてパスの始点と終点を丸くしてみました。</li>
                 </ul>
             </li>
             <li>
-                <a href="https://yscyber.github.io/svg/logo_animation.html">アニメーション</a>
+                <a href="https://yscyber.github.io/svg/logo_animation.html" title="https://yscyber.github.io/svg/logo_animation.html">アニメーション</a>
                 <ul>
-                    <li><a href="https://yscyber.github.io/svg/logo_default.html">デフォルト</a>のSVGにアニメーションを追加してみました。</li>
+                    <li><a href="https://yscyber.github.io/svg/logo_default.html" title="https://yscyber.github.io/svg/logo_default.html">デフォルト</a>のSVGにアニメーションを追加してみました。</li>
                     <li>circle要素とtext要素の間にradialGradient要素(<span class="pink">ピンク色 0%</span>から<span class="orange">オレンジ色 100%</span>へと変換)でグラデーションされた小さな球体を新たにcircle要素で記述しています。</li>
                     <li>動きはcircle要素内でanimateMotion要素を記述し、パスで指定しています。他にも、dur属性(時間)の値を10s(10秒)とrepeatCount属性(繰り返し)の値をindefinite(不定)にしています。</li>
                 </ul>
