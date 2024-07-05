@@ -4,12 +4,12 @@ body {
     padding: 0;
     width: 90%;
     max-width: 900px;
-    font: 1.2em/1.5 "sans-serif";
+    font: 1.2em/1.5 "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     background-color: #f8f8f8;
 }
 
-header {
-    text-align: center;
+ol li {
+    line-height: 2.5;
 }
 
 li a {
@@ -19,10 +19,6 @@ li a {
 li a:focus, li a:hover {
     border-bottom: 2px solid;
     font-weight: bold;
-}
-
-ol li {
-    line-height: 2.5;
 }
 
 ul {
