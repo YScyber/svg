@@ -26,34 +26,30 @@ nav ul li a:hover {
     border-bottom: 2px solid;
 }
 
-.blue {
+nav ul li span.cyan {
     color: #54abba;
 }
 
-.green {
+nav ul li span.green {
     color: #54ba65;
 }
 
-.gray {
+nav ul li span.gray {
     color: gray;
 }
 
-.silver {
+nav ul li span.silver {
     color: silver;
 }
 
-.cyan {
-    color: #54abba;
-}
-
-.yellow {
+nav ul li span.yellow {
     color: #a2ba54;
 }
 
-.pink {
+nav ul li span.pink {
     color: pink;
 }
 
-.orange {
+nav ul li span.orange {
     color: orange;
 }
