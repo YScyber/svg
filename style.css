@@ -16,7 +16,8 @@ li a {
     text-decoration: none;
 }
 
-li a:focus, li a:hover {
+li a:focus,
+li a:hover {
     border-bottom: 2px solid;
     font-weight: bold;
 }
@@ -56,10 +57,4 @@ ul {
 
 .orange {
     color: orange;
-}
-    font-weight: bold;
-}
-
-li {
-    line-height: 2.5;
 }
