@@ -7,12 +7,27 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 90%;
-    max-width: 900px;
+    max-width: 700px;
     background-color: #f8f8f8;
 }
 
-nav ol li {
-    line-height: 2.5;
+header h2 {
+    text-align: center;
+}
+
+nav ol {
+    display: flex;
+    flex-direction: column;
+}
+
+nav ol li a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav ol li a:focus,
+nav ol li a:hover {
+    border-bottom: 2px solid;
 }
 
 nav ul {
@@ -20,39 +35,8 @@ nav ul {
     list-style-type: none;
 }
 
-nav ul li a {
-    text-decoration: none;
-}
-
-nav ul li a:focus,
-nav ul li a:hover {
-    border-bottom: 2px solid;
-}
-
-nav ul li span.cyan {
-    color: #54abba;
-}
-
-nav ul li span.green {
-    color: #54ba65;
-}
-
-nav ul li span.gray {
-    color: gray;
-}
-
-nav ul li span.silver {
-    color: silver;
-}
-
-nav ul li span.yellow {
-    color: #a2ba54;
-}
-
-nav ul li span.pink {
-    color: pink;
-}
-
-nav ul li span.orange {
-    color: orange;
+nav ul li iframe {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
 }
