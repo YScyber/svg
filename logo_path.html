@@ -8,6 +8,11 @@
     <svg width="300" height="300" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" version="1.1">
         <rect width="100%" height="100%" fill="#eee" />
         <circle cx="72.5" cy="75" r="50" fill="black" />
+        <!-- 
+            ここでは<text>要素を削除し、文字はすべて<path>要素で記述してあります
+            三次ペジェ曲線（Yの曲線）、直線（Yの直線）、三次ペジェ曲線（Sの曲線）、直線（Sの直線）の順番で記述しています
+            手書き風に描きたかったので、stroke-width属性（太さ）をできるだけ細くし、stroke-linecap属性の値をroundにしてパスの始点と終点を丸くしてみました
+         -->
         <path d="M 38 62 C 38 33, 72 43, 52 62 S 67 87, 70 58" fill="transparent" stroke="#54abba" stroke-width="3" stroke-linecap="round" />
         <path d="M 70 62 L 50 105 Z" fill="transparent" stroke="#54abba" stroke-width="3" stroke-linecap="round" />
         <path d="M 108 66 C 70 28, 65 75, 90 75 S 90 130, 70 85" fill="transparent" stroke="#54abba" stroke-width="3" stroke-linecap="round" />
