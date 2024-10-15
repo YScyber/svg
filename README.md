@@ -9,8 +9,9 @@ iframe要素の内容は上から順に以下の通りとなります。
 1. [default.html](basic/default.html "basic/default.html")、[xy.html](basic/xy.html "basic/xy.html")、[color.html](basic/color.html "basic/color.html")、[opacity.html](basic/opacity.html "basic/opacity.html")、[fonts.html](basic/fonts.html "basic/fonts.html")の組み合わせ
 
 1. [transform.html](advanced/transform.html "advanced/transform.html")、[gradation.html](advanced/gradation.html "advanced/gradation.html")、[paths.html](advanced/paths.html "advanced/paths.html")、[animation.html](advanced/animation.html "advanced/animation.html")の組み合わせ
+<br><br>
 
 ※ 日本時間 2024/10/01 にリファクタリングしました。
-
+<br><br>
 
 [完成ページへ](https://yscyber.github.io/svg/ "https://yscyber.github.io/svg/")
