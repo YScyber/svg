@@ -43,7 +43,7 @@ SVG領域内（幅`300px`、高さ`100px`）の背景色を`#000`（黒色）に
 
 ### 基本
 
-[default.html](basic/default.html "basic/default.html")、[xy.html](basic/xy.html "basic/xy.html")、[color.html](basic/color.html "basic/color.html")、[opacity.html](basic/opacity.html "basic/opacity.html")、[fonts.html](basic/fonts.html "basic/fonts.html")の組み合わせ
+[default.html](basic/resources/default.html "basic/resources/default.html")、[xy.html](basic/resources/xy.html "basic/resources/xy.html")、[color.html](basic/resources/color.html "basic/resources/color.html")、[opacity.html](basic/resources/opacity.html "basic/resources/opacity.html")、[fonts.html](basic/resources/fonts.html "basic/resources/fonts.html")の組み合わせ
 
 **共通設定**に記述してある`#000`（黒色）の背景に以下の円弧、三角形、矩形を描画させています。
 
@@ -117,7 +117,7 @@ SVG領域内のX軸`95px`Y軸`40px`、X軸`75px`Y軸`55px`の２つのポイン�
 
 ### 高度
 
-[transform.html](advanced/transform.html "advanced/transform.html")、[gradation.html](advanced/gradation.html "advanced/gradation.html")、[paths.html](advanced/paths.html "advanced/paths.html")、[animation.html](advanced/animation.html "advanced/animation.html")の組み合わせ
+[transform.html](advanced/resources/transform.html "advanced/resources/transform.html")、[gradation.html](advanced/resources/gradation.html "advanced/resources/gradation.html")、[paths.html](advanced/resources/paths.html "advanced/resources/paths.html")、[animation.html](advanced/resources/animation.html "advanced/resources/animation.html")の組み合わせ
 
 まずはじめに、defs要素を使用して`#0f0`（緑色）から`#0ff`（水色）へと変化する放射グラデーションの設定をします。このdefs要素を使用した設定はsvg要素内の一番上に記述しなくてはいけません。この設定の後に**共通設定**に記述してある`#000`（黒色）の背景、パスで描かれた点線と放射グラデーションやアニメーションなどを設定した円弧を重ねて描画させています。
 
