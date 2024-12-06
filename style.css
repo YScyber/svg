@@ -33,6 +33,6 @@ div.wrapper iframe {
 
 @media screen and (max-width: 799px) {
     div.wrapper iframe {
-        height: 500px;
+        height: 550px;
     }
 }
