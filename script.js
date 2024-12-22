@@ -8,10 +8,8 @@ function setIframe() {
 
     if (choice === "basic/index.html") {
         iframe.src = this.value;
-        iframe.style.height = "650px";
     } else if (choice === "advanced/index.html") {
         iframe.src = this.value;
-        iframe.style.height = "650px";
     } else {
         iframe.src = "";
     }
