@@ -136,6 +136,8 @@ SVG領域内のX軸`95px`Y軸`40px`、X軸`75px`Y軸`55px`の２つのポイン�
     <text x="95" y="40" fill="#fff" font-family="sans-serif" font-size="16px">fill</text>
 </svg>
 ```
+
+[ソースコードの参照ページへ](basic/index.html "basic/index.html")
 <br>
 
 ## アニメーション
@@ -191,9 +193,11 @@ SVG領域内の`M 180 20`の位置を起点にして幅`h 70`と高さ`v 60`の�
     </circle>
 </svg>
 ```
+
+[ソースコードの参照ページへ](advanced/index.html "advanced/index.html")
 <br>
 
-※ 日本時間 2024/12/22 に変更を加えました。
+※ 日本時間 2024/12/25 に変更を加えました。
 <br><br>
 
 [完成ページへ](https://yscyber.github.io/svg/ "https://yscyber.github.io/svg/")
