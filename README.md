@@ -14,7 +14,7 @@
     - XMLコードが記述されています。
 - リセットボタン（`input`要素）
     - textarea要素内に記述されているコードの変更を初期値（読み込まれた最初の状態）に戻すためのボタンです。
-<br>
+<br><br>
 
 ## 共通設定
 
@@ -62,7 +62,7 @@ SVG領域内（幅`300px`、高さ`100px`）の背景色を`#000`（黒色）に
 ```
 
 このCSSの共通設定は、各ディレクトリ内にある`style.css`ファイルに記述しています。
-<br>
+<br><br>
 
 ## 基本
 
@@ -136,9 +136,10 @@ SVG領域内のX軸`95px`Y軸`40px`、X軸`75px`Y軸`55px`の２つのポイン�
     <text x="95" y="40" fill="#fff" font-family="sans-serif" font-size="16px">fill</text>
 </svg>
 ```
+<br>
 
 [ソースコードの参照ページへ](basic/index.html "basic/index.html")
-<br>
+<br><br>
 
 ## アニメーション
 
@@ -193,11 +194,12 @@ SVG領域内の`M 180 20`の位置を起点にして幅`h 70`と高さ`v 60`の�
     </circle>
 </svg>
 ```
-
-[ソースコードの参照ページへ](advanced/index.html "advanced/index.html")
 <br>
 
-※ 日本時間 2024/12/25 に変更を加えました。
+[ソースコードの参照ページへ](advanced/index.html "advanced/index.html")
+<br><br>
+
+※ 日本時間 2024/12/27 に変更を加えました。
 <br><br>
 
 [完成ページへ](https://yscyber.github.io/svg/ "https://yscyber.github.io/svg/")
